@@ -23,6 +23,10 @@ app.get('/login',(req,res)=>{
 app.get('/twitter',(req,res)=>{
     res.send('welcome to twitter page')
 })
+
+app.get('/youtube',(req,res)=>{
+    res.send('<h3>my youtube channel</h3>')
+})
 // app.listen(port, () => {
 //   console.log(`Example app listening on port ${port}`)
 // })
